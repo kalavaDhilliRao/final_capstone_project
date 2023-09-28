@@ -1,0 +1,114 @@
+body {
+    background-color: #c1efed4f;
+    font-family: Arial, sans-serif;
+
+}
+
+header {
+    text-align: center;
+    background-color: #070755;
+    color: white;
+    padding: 20px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: #0d2ba2b5;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 302px;
+}
+nav ul li{
+    list-style: none;
+    margin: 0px 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+
+}
+nav ul li a:hover{
+    color: rgb(146, 200, 247);
+    font-size: 1.04rem;
+
+}
+
+.weather-info {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#submit {
+    background-color: #0e5aaf;
+    color: white;
+    border: none;
+    padding: 14px 20px;
+    cursor: pointer;
+    border-radius: 9px;
+    margin-top: 15px;
+}
+
+/* Customize the weather cards */
+.weather-card {
+    background-color: #fff;
+    border: 1px solid #0f4bfb;
+    padding: 119px;
+    margin: 19px;
+    box-shadow: 9px 0px 10px rgba(66, 0, 98, 0.2);
+}
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 16px;
+}
+
+/* Customize the navigation bars */
+.navbar {
+    background-color: #2196F3;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+button, input, optgroup, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    border-radius: 6px;
+    margin: 8px
+
+
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 3.2;
+    color: var(--bs-heading-color);
+    padding: 11px;
+}
+nav a {
+    text-decoration: none;
+    color: rgb(234, 239, 247);
+    margin: 0 20px;
+  }
+input[type="text"], input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4266e8;
+    color: #fff;
+}
+.card-text:last-child {
+    margin-bottom: 0;
+    color: rbg;
+    color: #3b45dd;
+  }
